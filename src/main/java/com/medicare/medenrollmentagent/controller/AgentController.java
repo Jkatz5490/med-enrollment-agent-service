@@ -31,6 +31,6 @@ public class AgentController {
 	public Agent getAgentById(@PathVariable("id") Long agentId) {
 		log.info("Inside getAgentById method of AgentController Class");
 		return agentService.findAgentById(agentId);
-	}
+	}//
 	
 }
